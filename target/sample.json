@@ -1,0 +1,477 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "login with username and passsword",
+        "description": "",
+        "id": "validate-login-function-in-adactin-and;login-with-username-and-passsword;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64880362000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in hotel page",
+            "match": {
+              "location": "Method.user_in_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1180582600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"chikannan\" and \"Venk$22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chikannan\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Venk$22\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Method.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2329172800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login button",
+            "match": {
+              "location": "Method.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search hotel page appear or not",
+            "match": {
+              "location": "Method.search_hotel_page_appear_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user in Search hotel page",
+            "match": {
+              "location": "Method.user_in_Search_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1670369000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"Sydney\" , \"Hotel Sunshine\" , \"Standard\", \"1\", \"1\" from dropdown to select by value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 58
+                }
+              ],
+              "location": "Method.user_enter_from_dropdown_to_select_by_value(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2860648700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on search button",
+            "match": {
+              "location": "Method.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199167800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user in select hotel page",
+            "match": {
+              "location": "Method.user_in_select_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1370230900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on hotel and click on continue button",
+            "match": {
+              "location": "Method.click_on_hotel_and_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user on book hotel page",
+            "match": {
+              "location": "Method.user_on_book_hotel_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2683934100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter \"ABC\" , \"Venk\"  , \"Sydney\" , \"1234567890123456\" , \"VISA\" , \"12\" , \"2022\" , \"987\" to enter detail for booking",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABC\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Venk\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"987\"",
+                  "offset": 86
+                }
+              ],
+              "location": "Method.user_enter_to_enter_detail_for_booking(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196788500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on booknow button",
+            "match": {
+              "location": "Method.click_on_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6613070800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "find order id to print id",
+            "match": {
+              "location": "Method.find_order_id_to_print_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "login with username and passsword",
+        "description": "",
+        "id": "validate-login-function-in-adactin-and;login-with-username-and-passsword;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49666708400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in hotel page",
+            "match": {
+              "location": "Method.user_in_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 777194000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"chikannan\" and \"Venk$22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chikannan\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Venk$22\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Method.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1680887200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login button",
+            "match": {
+              "location": "Method.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search hotel page appear or not",
+            "match": {
+              "location": "Method.search_hotel_page_appear_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 232600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user in Search hotel page",
+            "match": {
+              "location": "Method.user_in_Search_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2623040100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"Paris\" , \"Hotel Creek\" , \"Double\", \"1\", \"1\" from dropdown to select by value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Method.user_enter_from_dropdown_to_select_by_value(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1798941900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on search button",
+            "match": {
+              "location": "Method.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254197500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user in select hotel page",
+            "match": {
+              "location": "Method.user_in_select_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1449556600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on hotel and click on continue button",
+            "match": {
+              "location": "Method.click_on_hotel_and_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user on book hotel page",
+            "match": {
+              "location": "Method.user_on_book_hotel_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2927298100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter \"ABC\" , \"XYZ\"  , \"Sydney\" , \"1234567890123456\" , \"VISA\" , \"12\" , \"2022\" , \"987\" to enter detail for booking",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABC\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"XYZ\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"987\"",
+                  "offset": 85
+                }
+              ],
+              "location": "Method.user_enter_to_enter_detail_for_booking(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199753200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on booknow button",
+            "match": {
+              "location": "Method.click_on_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6703687600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "find order id to print id",
+            "match": {
+              "location": "Method.find_order_id_to_print_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate login function in Adactin and",
+    "description": "",
+    "id": "validate-login-function-in-adactin-and",
+    "keyword": "Feature",
+    "uri": "C:/Users/VENKATESH/eclipse-workspace/Cucumber/src/test/resources/Test.features/Test1.feature",
+    "tags": []
+  }
+]
